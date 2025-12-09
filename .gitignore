@@ -1,0 +1,6 @@
+/target
+.idea/
+/.idea/dataSources.xml
+.idea
+/src/bin/
+/AGENTS.md
