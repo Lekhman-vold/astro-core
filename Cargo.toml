@@ -2,6 +2,14 @@
 name = "astro-core"
 version = "0.1.0"
 edition = "2021"
+authors = ["Volodymyr Lekhman"]
+description = "Rust wrapper around the Swiss Ephemeris C library to compute Sun, Moon, and Ascendant signs from UTC birth data."
+license-file = "src/swisseph/LICENSE"
+readme = "README.md"
+repository = "https://github.com/volodymyrlekhman/astro-core"
+homepage = "https://github.com/volodymyrlekhman/astro-core"
+keywords = ["astrology", "ephemeris", "swisseph", "ffi", "astro"]
+categories = ["science", "external-ffi-bindings"]
 
 [lib]
 name = "astro_core"
