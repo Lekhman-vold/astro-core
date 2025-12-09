@@ -39,8 +39,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 ```
 
 ## Ephemeris Data
-- The Swiss Ephemeris data and C sources are vendored under `src/swisseph`.
-- If you use external ephemeris files, point to them with `set_ephe_path`.
+- C sources are vendored under `src/swisseph` and compiled automatically.
+- Ephemeris data files are *not* included in the published crate to stay under the crates.io size limit. Download them from the upstream Swiss Ephemeris project (https://github.com/aloistr/swisseph) and point to the directory with `set_ephe_path("/path/to/ephe")`.
 - Swiss Ephemeris is licensed separately; review `src/swisseph/LICENSE`.
 
 ## Development

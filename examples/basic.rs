@@ -8,7 +8,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         year: 1990,
         month: 7,
         day: 15,
-        hour: 10,      // UTC, 24h
+        hour: 10, // UTC, 24h
         minute: 30,
         second: 0.0,
         lat: 40.7128,  // +N latitude

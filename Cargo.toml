@@ -10,6 +10,17 @@ repository = "https://github.com/volodymyrlekhman/astro-core"
 homepage = "https://github.com/volodymyrlekhman/astro-core"
 keywords = ["astrology", "ephemeris", "swisseph", "ffi", "astro"]
 categories = ["science", "external-ffi-bindings"]
+include = [
+    "Cargo.toml",
+    "README.md",
+    "AGENTS.md",
+    "build.rs",
+    "src/lib.rs",
+    "src/swisseph/*.c",
+    "src/swisseph/*.h",
+    "src/swisseph/LICENSE",
+    "examples/basic.rs",
+]
 
 [lib]
 name = "astro_core"
